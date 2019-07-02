@@ -14,7 +14,7 @@ def neurospora_eqns(z, forced_inputs):
 
 # Read in the experiment data from CSV - first column is a, second column is b, third column is time
 # Data goes to t=118 hours.
-experiment_data = genfromtxt('neur_circ_data_gillespie.csv', delimiter=',')
+experiment_data = genfromtxt('neurspora_data.csv', delimiter=',')
 
 num_plots = 3
 
